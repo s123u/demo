@@ -154,13 +154,13 @@ print(list(x))
 # finally:print("exceptional handling program")
 
 
-try:
-    print("try block")
-    age=int(input("enter your age"))
-    if age>18:
-        print("enter again")
-        raise ValueError(age)
-except ValueError:
-    print(age,"above 18")
-else:
-    print(age,"good")
+# try:
+#     print("try block")
+#     age=int(input("enter your age"))
+#     if age>18:
+#         print("enter again")
+#         raise ValueError(age)
+# except ValueError:
+#     print(age,"above 18")
+# else:
+#     print(age,"good")
